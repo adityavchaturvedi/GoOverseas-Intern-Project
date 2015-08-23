@@ -1,3 +1,5 @@
+#wassup!
+
 import csv
 
 RawCsvFile = open('RawFile.csv')
