@@ -1,0 +1,33 @@
+Note: These instructions are written for people not versed in running this file from the terminal. If you know how to do that, read the README. 
+
+Intructions to use this program:
+
+The program takes in a .csv file as its input. So, on the sheet you need to go to File > Download as > .csv  to download this file as a .csv file. 
+
+Once downloaded, rename it as RawFile.csv. If it's windows, the .csv is hidden so make sure to not to rename it to RawFile.csv.csv. 
+
+Then download my code and put it into the same folder.
+
+For MAC: Enter terminal (You need to go into utilities to find it).
+		 To look at the files and folders in your present directory, type "ls". 
+		 Use cd "<Name of Folder>" to enter into another folder.
+		 Use "cd" to get back to root folder.
+		 Use "cd .." to get back to previous folder.
+		 Using these commands navigate to the folder where you have downloaded your file and my code.
+
+For PC: Open Command Prompt (You need to go into start menu to find it).
+		 To look at the files and folders in your present directory, type "dir". 
+		 Use cd "<Name of Folder>" to enter into another folder.
+		 Use "cd" to get back to root folder.
+		 Use "cd .." to get back to previous folder.
+		 Using these commands navigate to the folder where you have downloaded your file and my code.
+
+You can check out this link for more commands: http://www.lemoda.net/windows/windows2unix/windows2unix.html
+
+Then type "python GoOverseas.py".
+
+If the code executed without error, that same folder should now have separate .txt files for each person's reponse.
+
+You can close the command prompt/terminal without any further instructions.
+
+Hope this helps,
