@@ -8,7 +8,6 @@ Once downloaded, rename it as RawFile.csv. If it's windows, the .csv is hidden s
 
 Then download my code and put it into the same folder.
 
-
 For MAC: Enter terminal (You need to go into utilities to find it).
 		 To look at the files and folders in your present directory, type "ls". 
 		 Use cd "<Name of Folder>" to enter into another folder.
