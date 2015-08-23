@@ -30,6 +30,8 @@ for row in FormattedCsvFile:
 	OutputFile.write(row[5])
 	OutputFile.write("\n\n")
 	OutputFile.write(row[8])
+	OutputFile.write("\n\nBio:\n")
+	OutputFile.write(row[9])
 	OutputFile.write("\n\n")
 	#name = name[0]
 	name = name.split()[0]
