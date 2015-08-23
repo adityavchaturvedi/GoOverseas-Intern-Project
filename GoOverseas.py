@@ -24,19 +24,30 @@ for row in FormattedCsvFile:
 	name = row[5]
 	nam = str(i) + name + ".txt"
 	OutputFile = open(nam, "w")
-	print i
-	j = 9
+	j = 10
+	OutputFile.write(row[0])
+	OutputFile.write("\n\n")
+	OutputFile.write(row[5])
+	OutputFile.write("\n\n")
+	OutputFile.write(row[8])
+	OutputFile.write("\n\n")
+	#name = name[0]
+	name = name.split()[0]
 	for Question in QuestionList:
-		OutputFile.write("\n<h3>")
-		OutputFile.write(Question)
-		OutputFile.write(" </h3>\n\n<p><strong>")
-		OutputFile.write(name)
-		OutputFile.write("</strong> </p>\n")
-		OutputFile.write(row[j])
-		OutputFile.write("\n\n")
-		j = j+1
+		if row[j]=="":
+			j = j + 1
+		else:
+			OutputFile.write("\n<h3>")
+			OutputFile.write(Question)
+			OutputFile.write(" </h3>\n\n<p><strong>")
+			OutputFile.write(name)
+			OutputFile.write(": </strong>")
+			OutputFile.write(row[j])
+			OutputFile.write("</p>\n")
+			OutputFile.write("\n\n")
+			j = j+1
 
 	OutputFile.close()
 	i = i+1
 
-f.close()
+RawCsvFile.close()
