@@ -24,7 +24,7 @@ for row in FormattedCsvFile:
 	name = row[5]
 	nam = str(i) + name + ".txt"
 	OutputFile = open(nam, "w")
-	j = 10
+	j = 1
 	OutputFile.write(row[0])
 	OutputFile.write("\n\n")
 	OutputFile.write(row[5])
