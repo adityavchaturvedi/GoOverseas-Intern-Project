@@ -32,13 +32,8 @@ for row in FormattedCsvFile:
 	name = row[6]
 	nam = str(i) + name + ".txt"
 	OutputFile = open(nam, "w")
-<<<<<<< HEAD
 	j = 11
 	OutputFile.write(row[1])
-=======
-	j = 1
-	OutputFile.write(row[0])
->>>>>>> origin/master
 	OutputFile.write("\n\n")
 	OutputFile.write(row[6])
 	OutputFile.write("\n\n")
