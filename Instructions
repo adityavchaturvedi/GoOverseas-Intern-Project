@@ -1,5 +1,5 @@
 Note: These instructions are written for people not versed in running this file from the terminal. If you know how to do that, read the README. 
-
+Note2: At the moment I am updating the software to hopefully eventually run based on a file you input. So, if should be general enough that it can take an input from the user and make changes based on that.
 Intructions to use this program:
 
 The program takes in a .csv file as its input. So, on the sheet you need to go to File > Download as > .csv  to download this file as a .csv file. 
