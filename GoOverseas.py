@@ -2,7 +2,7 @@
 
 import csv
 
-person = raw_input('Your name please: ')
+person = raw_input('Your name please: ') # Consider using just input() for a different version of Python
 print("Hi " + person + ",\n\nThis the program speaking.\n\nBelow type 1 if you want only your interviews to be converted\nand type 2 if you want all interviews converted.")
 print("\nBefore you proceed please make sure the file name for the data file is \"RawFile.csv\"")
 choice = raw_input("\nYour choice: ")
